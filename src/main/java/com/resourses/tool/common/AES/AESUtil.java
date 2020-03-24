@@ -213,7 +213,7 @@ public class AESUtil {
 		// 跳转
 		String a = AESUtil.GetAESCode(
 				"{\"payOrderNo\":\"20191131105809706823\",\"orderPrice\":\"1\",\"CustomParam\":\"56556566\","
-				+ "\"productName\":\"我是李勇\",\"productDesc\":\"我是李勇\",\"productURL\":\"http://baiddu.com\","
+				+ "\"productName\":\"我是\",\"productDesc\":\"我是\",\"productURL\":\"http://baiddu.com\","
 				+ "\"returnUrl\":\"http://baidu.com\","
 				+ "\"payment\":\"222\",\"signValidityPeriod\":\"2d\",\"OriOrderDate\":\"20180926\","
 				+ "\"loginID\":\"123\",\"requestFromUrl\":\"http://baidu.com\",\"ContractCode\":\"00852018092610320001100018000000\"}",
@@ -229,8 +229,8 @@ public class AESUtil {
 		//解约
 		String c = AESUtil.GetAESCode(
 				"{\"payOrderNo\":\"20191131105809706808\",\"orderPrice\":\"1\",\"CustomParam\":\"56556566\","
-				+ "\"productName\":\"我是李勇\",\"productDesc\":\"我是李勇\",\"productURL\":\"http://baiddu.com\","
-				+ "\"returnUrl\":\"https://stageandmu.reservehemu.com:8143/order/app/cloudPackage/cde010000003/b4b9e6f9e82f3fa814b5351129f78be1\","
+				+ "\"productName\":\"我是\",\"productDesc\":\"我是\",\"productURL\":\"http://baiddu.com\","
+				+ "\"returnUrl\":\"http://baidu.com\","
 				+ "\"ContractTerminationRemark\":\"你长得太丑\",\"signValidityPeriod\":\"2d\",\"OriOrderDate\":\"20180925\","
 				+ "\"loginID\":\"123\",\"ContractCode\":\"00852018092515220001800018000000\"}",
 				"ebb808789ac74491accc28c86ad39679");
